@@ -6,7 +6,7 @@ a bare-bones implementation to run the DeepMind RT-X Models with a low-end robot
 The Octo model is pretrained for the Aloha robot ( https://www.trossenrobotics.com/aloha.aspx ) The Octo model supports fine-tuning to control your own robot arm.  The repository for the Octo model is:
 https://github.com/octo-models/octo
 
-Unfortunately, my WidowX arm is pretty old and its Arbotix microprocessor had a flakey Serial Port that eventually went kaput. The Arbotix microproccessor is no longer supported or available, so I replaced it with the Robotis U2D2 and the equivelent of a U2D2 Power Hub Board.  I migrated the C++ code on the Arbotix microprocessor to Python for the laptop.  Now 100% python, the laptop directly controls the robot arm.  I also added a simple joystick controller and tweaked the rt1_widowx.py script to run with the new python version.  
+Unfortunately, my WidowX arm is pretty old and its Arbotix microprocessor had a flakey Serial Port that eventually went kaput. The Arbotix microprocessor is no longer supported or available, so I replaced it with the Robotis U2D2 and the equivelent of a U2D2 Power Hub Board.  I migrated the C++ code on the Arbotix microprocessor to Python for the laptop.  Now 100% python, the laptop directly controls the robot arm.  I also added a simple joystick controller and tweaked the rt1_widowx.py script to run with the new python version.  
 
 This python version of the code is now checked in to this repository as a starting point to playing with fine-tuning with the Octo model.
 
